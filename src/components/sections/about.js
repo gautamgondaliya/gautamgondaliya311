@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'React.js', 'Node.js', 'Express.js', 'MongoDb', 'GraphQL' ,'RESTful APIs', 'Docker'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,26 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! I'm Gautam Gondaliya, a passionate software engineer who loves bringing ideas to life 
+              on the internet. My journey began with a curiosity for creating engaging digital experiences, 
+              and over the years, I've refined my skills across the full stack, designing and building accessible, 
+              innovative applications.
+
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+            I've had the privilege of interning at Softcoding Solution Company,
+             where I developed a keen understanding of real-world project dynamics and contributed actively to 
+             impactful projects. My leadership experience has allowed me to guide teams in delivering user-focused 
+             solutions, and my commitment to continuous improvement ensures I stay on the cutting edge 
+             of web development.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+            Currently, my focus lies in building full-stack applications that bridge creativity with technical
+             precision, transforming innovative ideas into real-world products.
+             I’m excited to keep pushing the boundaries of digital design and development and continue contributing
+             to user-centered, inclusive projects that make a difference online.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
